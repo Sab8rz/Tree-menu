@@ -1,0 +1,6 @@
+<!-- menu.html -->
+<ul>
+{% for item in points %}
+    {% include 'tree_menu/menu_point.html' with item=item %}
+{% endfor %}
+</ul>
