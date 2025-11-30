@@ -29,10 +29,15 @@
     source venv/Scripts/activate
     ```
 
-3. **Перейдите в директорию проекта запустите сервер:**
+3. **Установите зависимости**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Перейдите в директорию проекта запустите сервер:**
     ```bash
     cd uptrader
     python manage.py runserver
     ```
 
-4. **Приложение будет доступно по адресу:** `http://localhost:8000/tree-menu/`
+5. **Приложение будет доступно по адресу:** `http://localhost:8000/tree-menu/`
