@@ -1,10 +1,9 @@
-<!-- menu_point.html -->
-<li class="{% if item.is_active %}active{% endif %}">
-    <a href="{{ item.url }}">{{ item.point.title }}</a>
-    {% if item.children %}
+<li>
+    <a href="{{ point.url }}">{{ point.point.title }}</a>
+    {% if point.children %}
         <ul>
-            {% for child in item.children %}
-                {% include 'tree_menu/menu_point.html' with item=child %}
+            {% for child in point.children %}
+                {% include 'tree_menu/menu_point.html' with point=child %}
             {% endfor %}
         </ul>
     {% endif %}
