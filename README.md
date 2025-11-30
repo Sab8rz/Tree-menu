@@ -40,4 +40,10 @@
     python manage.py runserver
     ```
 
-5. **Приложение будет доступно по адресу:** `http://localhost:8000/tree-menu/`
+5. **Эндпоинты:**
+   > Меню: `http://localhost:8000/tree-menu/`
+   > 
+   > Админка: `http://localhost:8000/admin/`
+   > 
+   >     Логин: admin
+   >     Пароль: admin1
